@@ -1,31 +1,31 @@
-'app_disk_size': !!int '200'
-'aws_account_id': '252639548458'
-'aws_region': 'eu-west-2'
-'cellname': 'test'
-'chi':
-  'chi_env_name': 'uat-gcp'
-  'cluster_name': 'main'
-  'enabled': !!bool 'true'
-'cloud': 'aws'
-'contact_email': 'cloud-ops-team@collibra.com'
-'db_disk_size': !!int '200'
-'dgc_build_nr': '84'
-'dgc_maint': '1'
-'dgc_major': '2023'
-'dgc_minor': '05'
-'enable_statuscake': !!bool 'false'
-'env_id': '0c6bcf0b-f8f7-5b49-9dc2-3a4d01109c25'
-'env_insights_enabled': !!bool 'true'
-'env_name': 'ydresen-gcp-pt'
-'force_destroy_backup_bucket': !!bool 'true'
-'gcp_project_id': 'sandbox-1-329806'
-'gcp_region': 'europe-west1'
-'legacy_gcp': !!bool 'false'
-'named_cloud': 'gcp'
-'tag_Department': 'CIE'
-'tag_InstancePurpose': 'Customer Non-Production'
-'tag_Owner': 'yonas.dresen@collibra.com'
-'tag_SalesforceId': '0016M00002HDke4'
-'tenant_id': 'c7f595c5-68d7-5078-a65f-cf9871a09727'
-'trigger_schedule': 'cron(00 6 * * ? *)'
-'type': 'dualnode'
+# Metadata
+env_id: '0c6bcf0b-f8f7-5b49-9dc2-3a4d01109c25'
+env_name: 'sulfur-2'
+fullcustname: cie
+tag_Department: 'CIE'
+tag_InstancePurpose: 'Internal'
+contact_email: 'cloud-ops-team@collibra.com'
+tag_SalesforceId: '0016M00002HDke5'
+tenant_id: 'c7f595c5-68d7-5078-a65f-cf9871a09727'
+hosting_region: n/a
+tag_StartDate: 1000000
+
+# Infra
+aws_account_id: '252639548458'
+aws_region: 'eu-west-1'
+gcp_project_id: 'sandbox-1-329806'
+gcp_region: 'europe-west1'
+cellname: 'test'
+cloud: 'gcp'
+named_cloud: 'gcp'
+chi:
+  chi_env_name: 'sandbox-gcp'
+  cluster_name: 'master'
+  enabled': !!bool 'true'
+root_disk_size: 100
+
+# Components
+dgc_build_nr: '84'
+dgc_maint: '1'
+dgc_major: '2023'
+dgc_minor: '05'
