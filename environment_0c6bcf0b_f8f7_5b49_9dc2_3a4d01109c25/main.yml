@@ -22,7 +22,7 @@ chi:
   chi_env_name: 'sandbox-gcp'
   cluster_name: 'master'
   enabled': !!bool 'true'
-root_disk_size: 100
+root_disk_size: 200
 
 # Components
 dgc_build_nr: '84'
