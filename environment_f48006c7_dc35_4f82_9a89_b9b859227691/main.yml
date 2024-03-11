@@ -1,0 +1,31 @@
+# Metadata
+env_id: 'f48006c7-dc35-4f82-9a89-b9b859227691'
+env_name: 'sulfur-843455177'
+fullcustname: 'sulfur-843455177'
+tag_Department: 'CIE'
+tag_InstancePurpose: 'Internal'
+contact_email: 'cie@collibra.com'
+tag_SalesforceId: '0016M00002HDke5'
+tenant_id: '2be97b38-b588-4e9a-9991-257f9ddaaa85'
+hosting_region: n/a
+tag_StartDate: 1000000
+
+# Infra
+aws_account_id: '252639548458'
+aws_region: 'eu-west-1'
+gcp_project_id: 'sandbox-1-329806'
+gcp_region: 'europe-west1'
+cellname: 'test'
+cloud: 'gcp'
+named_cloud: 'gcp'
+chi:
+  chi_env_name: 'sandbox-gcp'
+  cluster_name: 'master'
+  enabled': !!bool 'true'
+root_disk_size: 200
+
+# Components
+dgc_build_nr: '84'
+dgc_maint: '1'
+dgc_major: '2023'
+dgc_minor: '05'
