@@ -1,5 +1,5 @@
 env_id: c2c38791-bc6c-4e9e-bdbc-c0e6348809f3
-env_name: test-5
+env_name: test-50
 tenant_id: 37a2c56d-e407-48ee-8457-4e4004f1a42f
 contact_email: antoine.dubois@collibra.com
 fullcustname: Collibra
@@ -33,7 +33,18 @@ dgc_build_nr: "47"
 dgc_maint: "0"
 dgc_major: "2024"
 dgc_minor: "6"
+disable_feature_new_scope_page: true
+env_insights_enabled: true
+feature_insights: true
+enable_contrast_security: true
 enable_edge: true
+feature_assessments: true
+feature_betafeatures_searcheventlog: true
+feature_homepage: true
+feature_jdbc_lineage: true
+feature_policylifecycle: true
+feature_s4d_delta_index: true
+metadata_lake_enabled: true
 named_cloud: n/a
 release_channel: release
 dgc_branch_name: main
@@ -42,6 +53,11 @@ app_subnet_cidr: ""
 az: c
 csrf_enabled: "true"
 datadog_enable_agent_install: true
+enable_scim: true
+enable_top_navigation: true
+feature_gcs_synchronization_edge: true
+feature_tableau_harvester: true
+homepage_enabled: true
 hosting_region: ""
 legacy_gcp: ""
 repo_ebs_optimized: false
