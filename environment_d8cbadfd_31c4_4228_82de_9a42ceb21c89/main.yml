@@ -59,7 +59,6 @@ feature_gcs_synchronization_edge: true
 feature_tableau_harvester: true
 homepage_enabled: true
 hosting_region: ""
-legacy_gcp: ""
 repo_ebs_optimized: false
 repo_subnet_cidr: ""
 root_disk_size: "50"

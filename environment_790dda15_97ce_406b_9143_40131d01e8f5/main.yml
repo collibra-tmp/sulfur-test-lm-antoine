@@ -43,7 +43,6 @@ az: c
 csrf_enabled: "true"
 datadog_enable_agent_install: true
 hosting_region: ""
-legacy_gcp: ""
 repo_ebs_optimized: false
 repo_subnet_cidr: ""
 root_disk_size: "50"
