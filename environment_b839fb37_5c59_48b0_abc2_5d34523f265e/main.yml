@@ -2,7 +2,7 @@ env_id: b839fb37-5c59-48b0-abc2-5d34523f265e
 env_name: test-80
 tenant_id: 89db93a1-a1b3-4e3a-bf11-93e3d53825d0
 contact_email: antoine.dubois@collibra.com
-fullcustname: Collibra
+fullcustname: Antoine
 tag_InstancePurpose: Internal
 tag_SalesforceId: 0016M00002HDke5
 tag_Department: K8s Release Team
