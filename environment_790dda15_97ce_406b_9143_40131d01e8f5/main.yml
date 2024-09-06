@@ -34,7 +34,6 @@ dgc_maint: "0"
 dgc_major: "2024"
 dgc_minor: "6"
 enable_edge: true
-named_cloud: n/a
 release_channel: release
 dgc_branch_name: main
 app_ebs_optimized: false

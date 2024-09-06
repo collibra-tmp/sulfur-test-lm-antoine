@@ -45,7 +45,6 @@ feature_jdbc_lineage: true
 feature_policylifecycle: true
 feature_s4d_delta_index: true
 metadata_lake_enabled: true
-named_cloud: n/a
 release_channel: release
 dgc_branch_name: main
 app_ebs_optimized: false
