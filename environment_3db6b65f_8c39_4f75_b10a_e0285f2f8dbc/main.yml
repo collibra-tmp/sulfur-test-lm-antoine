@@ -1,0 +1,66 @@
+app_disk_size: "100"
+app_disk_type: pd-balanced
+app_ebs_optimized: false
+app_instance_type: e2-standard-4
+aws_account_id: "860302443858"
+aws_region: eu-west-1
+az: c
+cell: sandbox
+cellname: sandbox
+chi:
+    chi_env_name: sandbox-gcp
+    cluster_name: master
+    enabled: true
+    managed_db:
+        deletionPolicy: orphan
+        enabled: false
+cloud: gcp
+collibra_istio_sidecar_bucket: test-collibra-chi-vmlink
+contact_email: alex.vanboxel@collibra.com
+csrf_enabled: "true"
+datadog_enable_agent_install: true
+db_disk_size: "100"
+db_disk_type: pd-balanced
+dgc_branch_name: main
+dgc_build_nr: main-10468
+dgc_maint: "0"
+dgc_major: "2024"
+dgc_minor: "11"
+disable_feature_new_scope_page: true
+enable_contrast_security: true
+enable_edge: true
+enable_scim: true
+enable_top_navigation: true
+env_id: 3db6b65f-8c39-4f75-b10a-e0285f2f8dbc
+env_insights_enabled: true
+env_name: alex-002
+feature_assessments: true
+feature_betafeatures_searcheventlog: true
+feature_gcs_synchronization_edge: true
+feature_homepage: true
+feature_insights: true
+feature_jdbc_lineage: true
+feature_policylifecycle: true
+feature_s4d_delta_index: true
+feature_tableau_harvester: true
+fullcustname: Collibra
+gcp_project_id: cloud-platform-dev-266808
+gcp_region: europe-west1
+homepage_enabled: true
+image: dgc-collibra-image-1702899668
+legacy_naming: false
+metadata_lake_enabled: true
+named_cloud: ""
+ntp_timezone: UTC
+premiumsupport: false
+release_channel: release
+repo_ebs_optimized: false
+repo_instance_type: e2-standard-4
+root_disk_size: "50"
+root_disk_type: pd-balanced
+tag_Department: dev
+tag_InstancePurpose: Internal
+tag_SalesforceId: 0016M00002HDke5
+tag_StartDate: "1727426553"
+tenant_id: e0068065-2031-4331-be8d-25e910942639
+type: dualnode
